@@ -14,21 +14,21 @@ pub fn run() {
   // }
 
   // while loop fizzbuzz
-  // while count <= 100 {
-  //   if count % 15 == 0 {
-  //     println!("fizzbuzz");
-  //   } else if count % 3 == 0 {
-  //     println!("fizz");
-  //   } else if count % 5 == 0 {
-  //     println!("buzz");
-  //   } else {
-  //     println!("count {}", count);
-  //   }
-  //   count += 1;
-  // }
+  while count <= 100 {
+    if count % 15 == 0 {
+      println!("fizzbuzz");
+    } else if count % 3 == 0 {
+      println!("fizz");
+    } else if count % 5 == 0 {
+      println!("buzz");
+    } else {
+      println!("count {}", count);
+    }
+    count += 1;
+  }
 
   // for range
-  for mut num in 0..100 {
+  for num in 0..100 {
     if num % 15 == 0 {
       println!("fizzbuzz");
     } else if num % 3 == 0 {

@@ -12,7 +12,7 @@ pub fn run() {
 
  if command == "hello" {
    println!("Hi {}, how are you? ", name);
- } else if (command == "status") {
+ } else if command == "status" {
   println!("status is {} ", status);
  } else {
   println!("Invalid command!");
